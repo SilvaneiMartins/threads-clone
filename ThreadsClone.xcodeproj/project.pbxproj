@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313C613C2AA980110089ABBA /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313C613B2AA980110089ABBA /* EditProfileView.swift */; };
 		317FAFF02AA7C71200D95001 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FAFEF2AA7C71200D95001 /* ThreadCell.swift */; };
 		317FAFF32AA8045200D95001 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FAFF22AA8045200D95001 /* CircularProfileImageView.swift */; };
 		317FAFF52AA8071700D95001 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317FAFF42AA8071700D95001 /* UserCell.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		313C613B2AA980110089ABBA /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		317FAFEF2AA7C71200D95001 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		317FAFF22AA8045200D95001 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 		317FAFF42AA8071700D95001 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
@@ -58,6 +60,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		313C61392AA97FDF0089ABBA /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				313C613A2AA980030089ABBA /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		313C613A2AA980030089ABBA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				313C613B2AA980110089ABBA /* EditProfileView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		317FAFF12AA8040000D95001 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +294,7 @@
 		318040742AA6D34D00B7F1D9 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				313C61392AA97FDF0089ABBA /* EditProfile */,
 				317FAFF62AA80AD300D95001 /* Model */,
 				318040752AA6D35500B7F1D9 /* View */,
 			);
@@ -362,6 +381,7 @@
 			files = (
 				3180406F2AA6D2D000B7F1D9 /* CreateThreadsView.swift in Sources */,
 				318040672AA6D16800B7F1D9 /* FeedView.swift in Sources */,
+				313C613C2AA980110089ABBA /* EditProfileView.swift in Sources */,
 				3180405B2AA6BE2000B7F1D9 /* LoginView.swift in Sources */,
 				317FAFF02AA7C71200D95001 /* ThreadCell.swift in Sources */,
 				318040732AA6D32900B7F1D9 /* ActivityView.swift in Sources */,
